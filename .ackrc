@@ -1,0 +1,6 @@
+--type-add=php=.gne
+--type-add=html=.txt
+--nojs
+--nocss
+--nophp
+--nohtml
