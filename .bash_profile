@@ -72,19 +72,6 @@ alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.ar
 alias fs="stat -f \"%z bytes\""
 
 ################################################################################
-# Work aliases
-################################################################################
-
-alias ytunnel='nohup ssh -fN proxy.corp.yahoo.com > /dev/null'
-alias ctunnel='ssh -fN login1.corp.yahoo.com'
-alias ktunnel='kill `ps x | grep "ssh -fN" | grep -v grep | awk "{print \\\$1}"`'
-
-alias admin0='yssh admin0.flickr.mud.yahoo.com'
-alias admin1='yssh admin1.flickr.mud.yahoo.com'
-
-alias spoofmac='sudo ifconfig en0 lladdr 00:26:08:07:3d:98'
-
-################################################################################
 # Colors (for reference)
 ################################################################################
 # 
