@@ -64,7 +64,8 @@ alias flush="dscacheutil -flushcache"
 # Tools
 
 alias svn=/Users/harmes/Dropbox/bin/svn-color.py
-alias sdiff='/usr/bin/svn diff | mate'
+alias mdiff='/usr/bin/svn diff | mate'
+alias fdiff='/usr/bin/svn diff --diff-cmd=fmdiff'
 
 alias psql=/usr/local/pgsql-9.1/bin/psql
 
